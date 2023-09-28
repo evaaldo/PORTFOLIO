@@ -1,0 +1,76 @@
+@import url(./style.css);
+
+.especialidades {
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.especialidades h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 2em 0 .25em 0;
+}
+
+.especialidades-subtitulo {
+     color: var(--azul-ultra);
+     font-size: 1.25em;
+}
+
+.container-especialidades {
+    display: grid;
+    width: 70vw;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 1em;
+    margin: 3em 0 4em 0;
+}
+
+.container-especialidades div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    background-color: var(--azul-marinho);
+    color: var(--branco);
+    width: 200px;
+    height: 200px;
+    font-size: 1.25em;
+    transition: .25s;
+    border-radius: 5px;
+}
+
+.container-especialidades div a {
+    color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-weight: 700;
+    padding: .5em .75em;
+    border-radius: 20px;
+    border: 5px solid var(--amarelo);
+}
+
+#link-ferramenta {
+    color: var(--branco);
+    font-size: 1.5em;
+    transition: .25s;
+}
+
+#link-ferramenta:hover {
+    color: var(--azul-marinho);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .container-especialidades:hover > :not(:hover) {
+        opacity: .8;
+        transform: scale(.99);
+    }
+
+}
