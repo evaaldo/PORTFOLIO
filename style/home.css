@@ -85,6 +85,10 @@
     color: var(--laranja);
 }
 
+.fa-arrow-down {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .navbar:hover > :not(:hover) {
@@ -107,7 +111,6 @@
         font-size: 2em;
     }
 
-<<<<<<< HEAD
     .navbar {
         display: none;
     }
@@ -116,7 +119,5 @@
         margin-top: .5em;
     }
 
-=======
->>>>>>> 0a0c873f64aa79c3dfc7fa53d5c228d48f7e6ade
 }
 

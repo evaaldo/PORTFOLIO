@@ -38,11 +38,8 @@
 .sobre p {
     text-align: center;
     padding-top: 3em;
-<<<<<<< HEAD
     width: 80vw;
-=======
     width: 60vw;
->>>>>>> 0a0c873f64aa79c3dfc7fa53d5c228d48f7e6ade
     color: var(--branco);
 }
 
