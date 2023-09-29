@@ -1,0 +1,47 @@
+@import url(./style.css);
+
+.sobre {
+    background-color: var(--azul-marinho);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 0 4em 0;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: var(--branco);
+    font-size: 2em;
+}
+
+.sobre img {
+    width: 150px;
+    height: 150px;
+    margin-top: 2em;
+    border-radius: 50%;
+}
+
+.sobre h1 strong {
+    color: var(--laranja);
+}
+
+.sobre a {
+    color: var(--azul-ultra);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.sobre a:hover {
+    color: var(--laranja);
+}
+
+.sobre p {
+    text-align: center;
+    padding-top: 3em;
+    width: 80vw;
+    color: var(--branco);
+}
+
+.sobre p strong {
+    color: var(--azul-ultra);
+}
