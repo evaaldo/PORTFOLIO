@@ -107,6 +107,7 @@
         font-size: 2em;
     }
 
+<<<<<<< HEAD
     .navbar {
         display: none;
     }
@@ -115,5 +116,7 @@
         margin-top: .5em;
     }
 
+=======
+>>>>>>> 0a0c873f64aa79c3dfc7fa53d5c228d48f7e6ade
 }
 
