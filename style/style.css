@@ -2,6 +2,7 @@
 @import url(./home.css);
 @import url(./especialidades.css);
 @import url(./sobre.css);
+@import url(./contato.css);
 
 * {
     padding: 0;
@@ -27,4 +28,12 @@ html {
 body {
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Martian Mono', monospace;
+    background-color: var(--azul-marinho);
+}
+
+.linha {
+    margin-top: 3em;
+    border-top: 1px solid var(--branco);
+    opacity: .1;
+    width: 75vw;
 }

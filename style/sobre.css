@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 4em 0 4em 0;
+    padding: 4em 0 2em 0;
 }
 
 .sobre h1 {
@@ -45,4 +45,12 @@
 
 .sobre p strong {
     color: var(--azul-ultra);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .sobre p {
+        width: 70vw;
+    }
+
 }

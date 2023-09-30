@@ -1,0 +1,43 @@
+@import url(./style.css);
+
+.contato {
+    padding: 1em 0 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    background-color: var(--azul-marinho);
+    color: var(--branco);
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.redes {
+    font-size: 1.5em;
+}
+
+.redes a {
+    color: var(--branco);
+    transition: .25s;
+}
+
+.redes a:hover {
+    color: var(--laranja);
+}
+
+.contato h5 {
+    color: var(--laranja);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .contato {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+}
