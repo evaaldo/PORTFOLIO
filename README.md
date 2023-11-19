@@ -1,4 +1,4 @@
-<h2>Em construção</h2>
+<h4>Em construção</h4>
 
 <h1>Portfólio Pessoal</h1>
 <h2>O que é?</h2>
