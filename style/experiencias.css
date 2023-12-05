@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     gap: 5em;
+    margin-top: 2em;
 }
 
 .experiencia img {
@@ -35,7 +36,12 @@
 
 .experiencia-conteudo h1 {
     font-size: 1.5em;
-    margin-bottom: 1em;
+}
+
+.experiencia-conteudo h4 {
+    margin: 1em 0 2em 0;
+    font-size: .75em;
+    color: var(--laranja);
 }
 
 .experiencia-conteudo p {
