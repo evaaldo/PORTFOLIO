@@ -30,10 +30,6 @@
     border-radius: 50%;
 }
 
-.experiencia-conteudo {
-    
-}
-
 .experiencia-conteudo h1 {
     font-size: 1.5em;
 }
@@ -46,6 +42,7 @@
 
 .experiencia-conteudo p {
     margin-bottom: 2em;
+    text-align: justify;
 }
 
 .experiencia-conteudo h2 {
@@ -55,4 +52,13 @@
 
 .linha {
     margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .experiencia {
+        flex-direction: column;
+        margin: 0;
+    }
+
 }
