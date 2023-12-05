@@ -30,6 +30,11 @@
     border-radius: 50%;
 }
 
+.img-link:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
 .experiencia-conteudo h1 {
     font-size: 1.5em;
 }

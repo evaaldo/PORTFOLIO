@@ -21,6 +21,15 @@
     border-radius: 50%;
 }
 
+.img-link {
+    transition: .35s;
+}
+
+.img-link:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
 .sobre h1 strong {
     color: var(--laranja);
 }
