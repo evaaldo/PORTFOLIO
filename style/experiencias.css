@@ -1,0 +1,52 @@
+.experiencias {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    width: 70%;
+}
+
+.experiencias h1 {
+    font-size: 2em;
+}
+
+.experiencias h1 strong {
+    color: var(--laranja);
+}
+
+.experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.experiencia img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.experiencia-conteudo {
+    
+}
+
+.experiencia-conteudo h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.experiencia-conteudo p {
+    margin-bottom: 2em;
+}
+
+.experiencia-conteudo h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.linha {
+    margin-bottom: 4em;
+}
