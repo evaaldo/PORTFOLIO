@@ -4,6 +4,7 @@
 @import url(./sobre.css);
 @import url(./contato.css);
 @import url(./experiencias.css);
+@import url(./projetos.css);
 
 * {
     padding: 0;
@@ -17,6 +18,7 @@
     --vermelho: #f00;
     --azul-ultra: #005987;
     --azul-marinho: #01041c;
+    --azul-escuro: #0b0f2b;
     --laranja: rgb(255, 140, 0);
     --amarelo: #FFD43B;
     --verde: rgb(36, 122, 36);
