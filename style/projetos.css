@@ -87,15 +87,13 @@
 
 @media screen and (min-width: 1024px) {
     
-    .projeto {
-        max-width: 100vw;
-        max-height: 100vh;        
+    .projeto {     
         gap: 10em;
     }
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1350px) {
 
     .projeto {
         gap: 4em;
