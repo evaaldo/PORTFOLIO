@@ -6,7 +6,7 @@
 <p>Criei esse projeto com intuito de expor um pouco sobre mim e todos os meus outros projetos que já construí ao mundo. Por quê não fazer isso em uma das minhas especialidades também, a criação de sites?</p>
 
 <h2>Como acessar?</h2>
-<p>O portfólio está disponível em: https://portfolio-evaaldo.vercel.app/</p>
+<p>O portfólio está disponível em: [https://portfolio-evaaldo.vercel.app/](https://portfolio-ac2xjbxyc-evaaldos-projects.vercel.app/)</p>
 
 <h2>Imagens</h2>
 
